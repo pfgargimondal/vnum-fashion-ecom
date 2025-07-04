@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -6,6 +6,7 @@ import "./Home.css";
 import "swiper/css";
 
 export const Home = () => {
+{/* eslint-disable-next-line */}
   const [featuredProducts, setFeaturedProducts] = useState([
     {
       id: "1000",
