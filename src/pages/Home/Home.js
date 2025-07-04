@@ -485,10 +485,10 @@ export const Home = () => {
             <marquee behavior="" direction="" className="gfjhfgjfg">
               <span>
                 USE CODE: SALE70 <i className="fa-solid fa-bolt" />
-              </span>{" "}
+              </span>
               <span className="hfg55543">
                 SALE 70% OFF <i className="fa-solid fa-bolt" />
-              </span>{" "}
+              </span>
               <span>
                 END OF SEASON
                 <i className="fa-solid fa-bolt" />
