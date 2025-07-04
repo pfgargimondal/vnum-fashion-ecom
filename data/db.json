@@ -1,0 +1,95 @@
+{
+  "featured_products": [
+    {
+      "id": "1000",
+      "img1": "./images/product1 (1).webp",
+      "img2": "./images/product1 (2).webp",
+      "title": "COLLETTE",
+      "description": "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      "price": "48.99",
+      "colors": [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      "id": "1001",
+      "img1": "./images/product3 (1).webp",
+      "img2": "./images/product3 (2).webp",
+      "title": "COLLETTE",
+      "description": "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      "price": "48.99",
+      "colors": [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      "id": "1002",
+      "img1": "./images/product2 (1).webp",
+      "img2": "./images/product2 (2).webp",
+      "title": "COLLETTE",
+      "description": "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      "price": "48.99",
+      "colors": [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      "id": "1003",
+      "img1": "./images/product3 (1).webp",
+      "img2": "./images/product3 (2).webp",
+      "title": "COLLETTE",
+      "description": "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      "price": "48.99",
+      "colors": [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      "id": "1004",
+      "img1": "./images/product2 (1).webp",
+      "img2": "./images/product2 (2).webp",
+      "title": "COLLETTE",
+      "description": "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      "price": "48.99",
+      "colors": [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      "id": "1005",
+      "img1": "./images/product2 (1).webp",
+      "img2": "./images/product2 (2).webp",
+      "title": "COLLETTE",
+      "description": "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      "price": "48.99",
+      "colors": [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      "id": "1006",
+      "img1": "./images/product2 (1).webp",
+      "img2": "./images/product2 (2).webp",
+      "title": "COLLETTE",
+      "description": "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      "price": "48.99",
+      "colors": [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    }
+  ]
+}
