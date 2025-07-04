@@ -6,7 +6,7 @@ import "./Home.css";
 import "swiper/css";
 
 export const Home = () => {
-{/* eslint-disable-next-line */}
+  //eslint-disable-next-line
   const [featuredProducts, setFeaturedProducts] = useState([
     {
       id: "1000",
