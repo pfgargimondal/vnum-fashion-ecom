@@ -14,9 +14,9 @@ export const Footer = () => {
                 San Francisco, CA 94105, <br />
                 United States</p>
 
-              <p className="mb-1"><i class="bi me-2 bi-chat-left-dots-fill"></i> Text: <a href="">(090) 123-Vinhem</a></p>
+              <p className="mb-1"><i class="bi me-2 bi-chat-left-dots-fill"></i> Text: <a href="/">(090) 123-Vinhem</a></p>
 
-              <p><i class="bi me-2 bi-envelope-fill"></i> <a href="">email@domain.com</a></p>
+              <p><i class="bi me-2 bi-envelope-fill"></i> <a href="/">email@domain.com</a></p>
             </div>
           </div>
 
