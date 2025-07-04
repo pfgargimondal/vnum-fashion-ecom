@@ -6,7 +6,99 @@ import "./Home.css";
 import "swiper/css";
 
 export const Home = () => {
-  const [featuredProducts, setFeaturedProducts] = useState([]);
+  const [featuredProducts, setFeaturedProducts] = useState([
+    {
+      id: "1000",
+      img1: "./images/product1 (1).webp",
+      img2: "./images/product1 (2).webp",
+      title: "COLLETTE",
+      description: "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      price: "48.99",
+      colors: [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      id: "1001",
+      img1: "./images/product3 (1).webp",
+      img2: "./images/product3 (2).webp",
+      title: "COLLETTE",
+      description: "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      price: "48.99",
+      colors: [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      id: "1002",
+      img1: "./images/product2 (1).webp",
+      img2: "./images/product2 (2).webp",
+      title: "COLLETTE",
+      description: "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      price: "48.99",
+      colors: [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      id: "1003",
+      img1: "./images/product3 (1).webp",
+      img2: "./images/product3 (2).webp",
+      title: "COLLETTE",
+      description: "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      price: "48.99",
+      colors: [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      id: "1004",
+      img1: "./images/product2 (1).webp",
+      img2: "./images/product2 (2).webp",
+      title: "COLLETTE",
+      description: "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      price: "48.99",
+      colors: [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      id: "1005",
+      img1: "./images/product2 (1).webp",
+      img2: "./images/product2 (2).webp",
+      title: "COLLETTE",
+      description: "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      price: "48.99",
+      colors: [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    },
+    {
+      id: "1006",
+      img1: "./images/product2 (1).webp",
+      img2: "./images/product2 (2).webp",
+      title: "COLLETTE",
+      description: "(Product 35) Sample - Clothing And Accessory Boutiques For Sale",
+      price: "48.99",
+      colors: [
+        "./images/color1 (1).jpg",
+        "./images/color1 (1).png",
+        "./images/color1 (2).png"
+      ]
+    }
+  ]);
 
 
   const swiperConfig = {
@@ -22,17 +114,19 @@ export const Home = () => {
     },
   };
 
-  useEffect(() => {
-    const fetchFeaturedProducts = async () => {
-      const URL = "http://localhost:8000/featured_products";
-      const response = await fetch(URL);
-      const data = await response.json();
-      setFeaturedProducts(data);  
-      console.log(data);    
-    }
 
-    fetchFeaturedProducts();
-  }, []);
+
+  // useEffect(() => {
+  //   const fetchFeaturedProducts = async () => {
+  //     const URL = "http://localhost:8000/featured_products";
+  //     const response = await fetch(URL);
+  //     const data = await response.json();
+  //     setFeaturedProducts(data);  
+  //     console.log(data);    
+  //   }
+
+  //   fetchFeaturedProducts();
+  // }, []);
 
 
 
