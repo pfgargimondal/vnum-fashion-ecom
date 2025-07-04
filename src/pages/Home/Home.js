@@ -8,7 +8,6 @@ import "swiper/css";
 export const Home = () => {
   const [featuredProducts, setFeaturedProducts] = useState([]);
 
-  {/*featued products start*/}
 
   const swiperConfig = {
     spaceBetween: 20,
@@ -35,7 +34,6 @@ export const Home = () => {
     fetchFeaturedProducts();
   }, []);
 
-  {/*featued products end*/}
 
 
   return (
@@ -483,6 +481,7 @@ export const Home = () => {
       <div className="xfbxdfgsdf">
         <div className="container-fluid">
           <div className="dfngjhdfgdfg">
+             {/* eslint-disable-next-line */}
             <marquee behavior="" direction="" className="gfjhfgjfg">
               <span>
                 USE CODE: SALE70 <i className="fa-solid fa-bolt" />
